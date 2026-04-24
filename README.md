@@ -8,11 +8,11 @@
 
 ```mermaid
 flowchart TB
-    subgraph INPUT[源码项目]
+    subgraph INPUT[📂 源码项目]
         SRC[Java / Go / Python / PHP / ...]
     end
 
-    subgraph ANALYZE[源码深度分析]
+    subgraph ANALYZE[🔍 源码深度分析]
         A1[目录结构和依赖]
         A2[业务流程和调用链]
         A3[枚举常量和配置值]
@@ -20,14 +20,14 @@ flowchart TB
         A1 --> A2 --> A3 --> A4
     end
 
-    subgraph PRODUCE[文档生成]
+    subgraph PRODUCE[📝 文档生成]
         D1[Mermaid 流程图]
         D2[docsify 技术博客]
         D3[purpose.md 知识锚点]
         D1 --> D2 --> D3
     end
 
-    subgraph INDEX[知识索引]
+    subgraph INDEX[🧠 知识索引]
         I1[TF-IDF 关键词]
         I2[Embedding 语义向量]
         I3[Link Graph 2-hop 扩展]
@@ -35,14 +35,14 @@ flowchart TB
         I2 --> I3
     end
 
-    subgraph QA[AI 问答]
+    subgraph QA[💬 AI 问答]
         Q1[Token Budget 80/10/5/5]
         Q2[RRF 融合排序]
         Q3[SSE 流式输出]
         Q1 --> Q2 --> Q3
     end
 
-    subgraph OUTPUT[交付产物]
+    subgraph OUTPUT[🚀 交付产物]
         O1[docsify 博客]
         O2[AI Q&A 面板]
         O3[Docker 镜像 单端口 8000]
