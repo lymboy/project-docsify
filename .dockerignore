@@ -1,0 +1,7 @@
+.git/
+.gitignore
+__pycache__/
+*.pyc
+server/__pycache__
+DOCKER.md
+.claude/
