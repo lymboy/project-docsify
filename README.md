@@ -188,8 +188,8 @@ flowchart TB
 
 | 变量                 | 必填 | 说明                                       | 示例                        |
 | -------------------- | ---- | ------------------------------------------ | --------------------------- |
-| `LLM_API_KEY`        | 否   | LLM API 密钥                               | https://kspmas.ksyun.com/v1 |
-| `LLM_API_BASE`       | 否   | LLM API 地址（默认 OpenAI 兼容）           | xxxxxx                      |
+| `LLM_API_KEY`        | 否   | LLM API 密钥                               | xxxxx |
+| `LLM_API_BASE`       | 否   | LLM API 地址（默认 OpenAI 兼容）           | https://kspmas.ksyun.com/v1                      |
 | `LLM_MODEL`          | 否   | 模型名称                                   | glm-5.1                     |
 | `EMBEDDING_API_BASE` | 否   | Embedding API 地址（开启语义检索时需配置） | http://kspmas.ksyun.com     |
 | `EMBEDDING_API_KEY`  | 否   | Embedding API 密钥                         | xxxxxx                      |
